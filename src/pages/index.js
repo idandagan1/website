@@ -8,12 +8,17 @@ const pageStyles = {
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 
+const linkStyles = {
+  textDecoration: 'none',
+  color: 'black',
+}
+
 const Page = () => {
   return (
     <main style={pageStyles}>
       <title>Idan Dagan</title>
       <div>
-        <h1>Idan Dagan</h1>
+        <h1><Link style={linkStyles} target='_blank' to="https://github.com/idandagan1">Idan Dagan</Link></h1>
       </div>
     </main>
   )
